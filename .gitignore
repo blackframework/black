@@ -1,0 +1,10 @@
+vendor
+.idea
+.env
+.vagrant
+node_modules
+after.sh
+aliases
+phinx.yml
+Homestead.yaml
+Vagrantfile

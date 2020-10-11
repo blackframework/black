@@ -1,0 +1,10 @@
+<?php
+## BO : Name Routes
+Route::get('/DummyRoute', 'DummyControllerController@index')->add(RedirectIfAuthenticated::class);
+Route::get('/DummyRoute/create',  'DummyControllerController@create')->add(RedirectIfAuthenticated::class);
+Route::get('/DummyRoute/edit/{id}',  'DummyControllerController@edit')->add(RedirectIfAuthenticated::class);
+Route::post('/DummyRoute/show/{id}', 'DummyControllerController@show')->add(RedirectIfAuthenticated::class);
+Route::post('/DummyRoute/delete/{id}', 'DummyControllerController@show')->add(RedirectIfAuthenticated::class);
+## EO : Name Routes -->
+
+#####-- Do not delete line --#####
