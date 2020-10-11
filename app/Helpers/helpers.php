@@ -144,7 +144,8 @@ if (!function_exists('base_path'))
 {
     function base_path($path = '')
     {
-        return  __DIR__ . "/../{$path}";
+        // return  __DIR__ . "/../{$path}";
+        return  dirname(__DIR__) . "/../{$path}";
     }
 }
 
